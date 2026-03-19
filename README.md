@@ -1,90 +1,111 @@
-📊 Prodigy InfoTech Internship – Task 2
-Data Cleaning & Exploratory Data Analysis (EDA)
-📌 Task Objective
+# 📊 Prodigy InfoTech Internship – Task 2  
+### Data Cleaning and Exploratory Data Analysis (EDA)
 
-The objective of this task is to perform data cleaning and exploratory data analysis (EDA) on a dataset to uncover meaningful insights, patterns, and relationships between variables.
+---
 
-📁 Dataset
+## 📌 Task Objective  
+The objective of this task is to perform data cleaning and exploratory data analysis (EDA) on a dataset. The goal is to identify patterns, trends, and relationships between variables while preparing the data for further analysis.
 
-Dataset used: test.csv
+---
 
-Source: Provided as part of the internship
+## 📁 Dataset  
+The dataset used in this project is **test.csv**, which contains passenger information used for performing data cleaning and exploratory data analysis.
 
-🛠 Tools & Libraries Used
+The dataset includes features such as:
 
-Python 🐍
+- PassengerId – Unique ID of passengers  
+- Pclass – Passenger class  
+- Name – Passenger name  
+- Sex – Gender of passenger  
+- Age – Age of passenger  
+- SibSp – Number of siblings/spouses aboard  
+- Parch – Number of parents/children aboard  
+- Ticket – Ticket number  
+- Fare – Ticket fare  
+- Cabin – Cabin number  
+- Embarked – Port of embarkation  
 
-Pandas
+---
 
-NumPy
+## 🛠 Tools & Libraries Used  
+- Python  
+- Jupyter Notebook  
+- Pandas – Data cleaning and manipulation  
+- NumPy – Numerical operations  
+- Matplotlib – Data visualization  
+- Seaborn – Statistical visualization  
 
-Matplotlib
+---
 
-Seaborn
+## 🔎 Data Cleaning Steps  
+The following preprocessing steps were performed:
 
-🔍 Data Cleaning Steps
+- Checked dataset structure using `.info()` and `.describe()`  
+- Handled missing values  
+- Removed duplicate records  
+- Checked for null values  
+- Converted data types where required  
 
-Handled missing values
+---
 
-Removed duplicate records
+## 📊 Exploratory Data Analysis  
+Different visualizations were created to understand the dataset:
 
-Converted data types for analysis
+- Distribution of passengers by gender  
+- Passenger distribution by class  
+- Age distribution of passengers  
+- Fare distribution  
+- Relationship between different passenger attributes  
 
-Renamed columns for better readability
+These visualizations help in understanding the structure and patterns in the dataset.
 
-📊 Exploratory Data Analysis
+---
 
-Analyzed distributions of various features
+## 📂 Project Structure  
+PRODIGY_DS_02  
+│  
+├── Task2.ipynb        # Jupyter Notebook with analysis  
+├── test.csv           # Dataset used for the project  
+└── README.md          # Project documentation  
 
-Created visualizations such as:
+---
 
-Bar charts
+## 🚀 How to Run the Project  
 
-Histograms
+1. Clone this repository  
+2. Open the notebook in Jupyter Notebook / Jupyter Lab  
+3. Install required libraries:  
+   ```
+   pip install pandas numpy matplotlib seaborn
+   ```
+4. Run all cells in the notebook  
 
-Heatmaps
+---
 
-Box plots
+## 🎯 Conclusion  
+This project demonstrates how data cleaning and exploratory data analysis (EDA) can help understand datasets, detect patterns, and prepare the data for further data science tasks.
 
-📈 Key Insights
+---
 
-Identified trends and patterns in the dataset
+## ✨ Author  
+**Indurthi Sahasra**  
+Data Science Intern – Prodigy InfoTech  
 
-Found relationships between variables
+---
 
-Detected outliers and inconsistencies in data
+## 📬 Contact  
+If you have any feedback or suggestions, feel free to connect with me:
 
-📂 Project Structure
-PRODIGY_DS_02/
-│── test.csv           # Dataset
-│── task2.ipynb        # Jupyter Notebook
-│── README.md          # Documentation
-🚀 How to Run the Project
+💼 LinkedIn: https://www.linkedin.com/feed/update/urn:li:ugcPost:7440370247548973058/  
 
-Clone the repository
+---
 
-git clone https://github.com/sahasrareddy2106/PRODIGY_DS_02.git
+## 🔗 Internship  
+This project is part of the **Prodigy InfoTech Data Science Internship Program**.
 
-Navigate to the project folder
+---
 
-cd PRODIGY_DS_02
+## ⭐ Support  
+If you found this project useful, feel free to ⭐ the repository.
 
-Open Jupyter Notebook
-
-jupyter notebook
-🔗 Internship
-
-This project is part of the Prodigy InfoTech Data Science Internship.
-
-📈 Conclusion
-
-This task highlights the importance of data preprocessing and exploratory analysis, which are essential steps before applying machine learning techniques.
-
-✨ Author
-
-👤 Indurthi Sahasra
-🔗 GitHub: https://github.com/sahasrareddy2106
-
-⭐ Support
-
-If you found this project useful, feel free to ⭐ the repository!
+⭐ Thank you for reviewing my submission!
